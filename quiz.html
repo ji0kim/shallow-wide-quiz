@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz.css" />
+    <script src="quiz.js" defer></script>
+
+    <title>Multiple Choice Quiz</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Multiple Choice Quiz</h1>
+    </header>
+    <h2>
+      1-Which of the following retains the information it’s storing when the
+      power to the system is turned off?
+    </h2>
+    <div id="answer">
+      <input type="radio" id="CPU" name="choice" value="CPU" />
+      <label for="CPU">CPU</label>
+      <input type="radio" id="RAM" name="choice" value="RAM" />
+      <label for="RAM">RAM</label>
+      <input type="radio" id="ROM" name="choice" value="ROM" />
+      <label for="ROM">ROM</label>
+      <input type="radio" id="DIMM" name="choice" value="DIMM" />
+      <label for="DIMM">DIMM</label>
+    </div>
+    <div>
+      <button onclick="selectFuntion()" type="submit" id="button">
+        Submit
+      </button>
+    </div>
+  </body>
+</html>
