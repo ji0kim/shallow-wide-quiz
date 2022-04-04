@@ -18,20 +18,13 @@
       1-Which of the following retains the information it’s storing when the
       power to the system is turned off?
     </h2>
+    <div id="result"></div>
     <div id="answer">
-      <input type="radio" id="CPU" name="choice" value="CPU" />
-      <label for="CPU">CPU</label>
-      <input type="radio" id="RAM" name="choice" value="RAM" />
-      <label for="RAM">RAM</label>
-      <input type="radio" id="ROM" name="choice" value="ROM" />
-      <label for="ROM">ROM</label>
-      <input type="radio" id="DIMM" name="choice" value="DIMM" />
-      <label for="DIMM">DIMM</label>
-    </div>
-    <div>
-      <button onclick="selectFuntion()" type="submit" id="button">
-        Submit
-      </button>
+      <button type="submit" id="button3" onclick="getAnswer(value)" value='true'>ROM</button>
+      <button type="submit" id="button1" onclick="getAnswer(value)" value='false'>CPU</button>
+      <button type="submit" id="button2" onclick="getAnswer(value)" value='false'>RAM</button>
+      <button type="submit" id="button4" onclick="getAnswer(value)" value='false'>DIMM</button>
     </div>
   </body>
 </html>
+
